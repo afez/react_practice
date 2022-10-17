@@ -1,0 +1,315 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-page {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+nav>h3,
+nav>h4 {
+  margin: 0;
+}
+
+nav>h3 {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+nav>h4 {
+  color: white;
+  font-weight: 700;
+}
+
+.nav-img {
+  height: 80px;
+  width: 80px;
+}
+
+main {
+  background-color: #282D35;
+  height: 100vh;
+  padding: 57px 27px;
+  color: #FFFFFF;
+  background-image: url(./images/bg.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 75%;
+}
+
+.main_title {
+  margin: 0;
+  font-size: 39px;
+  color: #FFFFFF;
+}
+
+.main_facts {
+  margin-top: 46px;
+}
+
+.main_facts>li {
+  padding-block: 10px;
+  max-width: 400px;
+  font-size: 16px;
+}
+
+.main_facts>li::marker {
+  font-size: 30px;
+  color: #61DAFB;
+}
+
+.card_body {
+  width: 550px;
+  height: 868px;
+  background: #23252C;
+  color: white;
+  display: flex;
+}
+
+.inner {
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+
+  background: #1A1B21;
+}
+
+.info {
+  color: white;
+}
+
+.photo {
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.jina {
+  color: white;
+}
+
+.kazi {
+  color: white;
+}
+
+.linkedin {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.li {
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+}
+
+.social {
+  display: flex;
+  height: 90px;
+  gap: 7px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+
+
+}
+
+/* .email{
+ width: 57px;
+height: 16px;
+  }
+   */
+/* .linkd{
+    margin-top:'100px'
+   } */
+
+/* Airbnb */
+
+.nav-airbnb {
+  background-image: url(./images/bg-airbnb.png);
+  display: flex;
+  height: 70px;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+img-bnb {
+  max-width: 100px;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-img {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero-h1 {
+  margin-bottom: 16px;
+}
+
+.hero-p {
+  margin-top: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.img1 {
+  width: 100%;
+  height: 200px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+
+}
+
+.card {
+  /* margin: 5px 5px; */
+  display: flex;
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.memeNav {
+  display: flex;
+  align-items: center;
+  padding: 20 25;
+  width: 100%;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+  padding: 30px 25px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.memeNav>h1,
+.memeNav>h4 {
+  margin: 0;
+}
+
+.memeNav>h1 {
+  margin-right: auto;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.memeNav>h4 {
+  color: white;
+  font-weight: 700;
+}
+
+.memeLogo {
+  width: 31.31px;
+  height: 26.22px;
+  left: 10px;
+  top: 24px;
+
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+}
+
+.input-text {
+  border: 1px solid #A818DA;
+  border-radius: 5px;
+  text-indent: 5px;
+
+
+}
+
+.button-form {
+  grid-column: 1 / -1;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+  border: 1px solid #A818DA;
+margin-top: 10px;
+}
+.meme-image{
+  max-width: 100%;
+}
