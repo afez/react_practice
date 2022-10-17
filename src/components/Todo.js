@@ -6,14 +6,21 @@ const Todo = () => {
   const { id } = useParams();
 
   const [todoDetails, setTodoDetails] = useState({});
+  const[error, setError] = useState(null)
   useEffect(() => {
     axios
       .get(`https://jsonplaceholder.typicode.com/todos/${id}`)
       .then((res) => {
         const todoDetailsResponse = res.data;
         setTodoDetails(todoDetailsResponse);
+      }).catch(error =>{
+setError(error)
       });
   });
+  if(error)
+   return `Error: ${error.message}`
+   
+
   console.table(todoDetails);
   const { id: todoId, userId, title, completed } = todoDetails;
   return (
